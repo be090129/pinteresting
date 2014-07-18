@@ -2,11 +2,22 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg : #F1F0EE;
-$navbar-inverse-bg : #3C3C3C; // Bkg de la bar de navigation
-$navbar-inverse-link-color : #ffffff ; // lien de la bar de navigation
-$brand-primary : #92843D; // Bouton Sign Up
-$jumbotron-bg : #e6e3dc;
+$body-bg : #ecf0f1;
+$font-family-sans-serif:'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:45px;
+$navbar-default-bg: #ffffff;
+$navbar-default-brand-color:#c0392b;
+$brand-primary: #c0392b;
+$jumbotron-bg:white;
 
 @import 'bootstrap';
+
+.center {
+  text-align : center;
+}
+
+.navbar-brand {
+  font-weight : bold;
+}
