@@ -13,6 +13,8 @@ gem 'bootstrap-sass'
 gem 'turbolinks'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '~> 1.6.1'
+
 
 
 group :development, :test do
