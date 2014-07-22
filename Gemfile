@@ -11,10 +11,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 1.6.1'
-
+gem 'masonry-rails'
 
 
 group :development, :test do
